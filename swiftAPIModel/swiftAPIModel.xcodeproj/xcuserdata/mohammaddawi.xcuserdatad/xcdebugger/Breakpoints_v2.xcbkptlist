@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "BCE408D4-D999-4CA9-A11E-68158CE1579E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD008EE6-2056-4C02-815D-0E2BA161D817"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftAPIModel/FISClass.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "init(name:roomNumber:instruct:students:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "989E88D0-40CD-4C85-8537-C11644269CCF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftAPIModel/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6241F1D7-C82F-4269-BDB7-F8AC1D1042AB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "swiftAPIModel/FISClass.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "create(fromDictionary:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6241F1D7-C82F-4269-BDB7-F8AC1D1042AB - da232939b098e149"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static swiftAPIModel.FISClass.create(fromDictionary: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; Swift.Optional&lt;swiftAPIModel.FISClass&gt;"
+                  moduleName = "swiftAPIModel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammaddawi/Desktop/API-Model-Swift/swiftAPIModel/swiftAPIModel/FISClass.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "239">
+               </Location>
+               <Location
+                  uuid = "6241F1D7-C82F-4269-BDB7-F8AC1D1042AB - da232939b098e149"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static swiftAPIModel.FISClass.create(fromDictionary: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; Swift.Optional&lt;swiftAPIModel.FISClass&gt;"
+                  moduleName = "swiftAPIModel"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammaddawi/Desktop/API-Model-Swift/swiftAPIModel/swiftAPIModel/FISClass.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "3829">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
