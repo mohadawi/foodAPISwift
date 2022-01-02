@@ -18,7 +18,7 @@ class ViewController: UIViewController,UISearchResultsUpdating,UISearchBarDelega
     var selectedRepo : Pizza?// holds the article that was clicked or selected
     var totalReposCount:Int = 0 // total count of articles returned
     var currentReposCount:Int = 0
-    var baseUrl:String = "http://content.guardianapis.com/search?api-key=19a3c46d-c355-40fa-b9b9-5b2893b34c1c&show-fields=starRating,thumbnail" // changes automatically
+    var baseUrl:String = "https://private-anon-b665557f33-pizzaapp.apiary-mock.com/restaurants/restaurantId/menu?category=Pizza&orderBy=rank" // changes automatically
     var currentPage:Int = 1 // implement paging
     var pageCount:Int = 30 // changes automatically
     
@@ -31,7 +31,7 @@ class ViewController: UIViewController,UISearchResultsUpdating,UISearchBarDelega
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        baseUrl = "https://content.guardianapis.com/search?&api-key=19a3c46d-c355-40fa-b9b9-5b2893b34c1c&show-fields=starRating,thumbnail"
+        baseUrl = "https://private-anon-b665557f33-pizzaapp.apiary-mock.com/restaurants/restaurantId/menu?category=Pizza&orderBy=rank"
         currentPage = 1
         repos.removeAll()
         self.tableView.reloadData()
@@ -46,7 +46,7 @@ class ViewController: UIViewController,UISearchResultsUpdating,UISearchBarDelega
     
     // reload the data when search text cahnges
     @objc func reload() {
-        baseUrl = "https://content.guardianapis.com/search?q=" + resultSearchController.searchBar.text! + "&api-key=19a3c46d-c355-40fa-b9b9-5b2893b34c1c&show-fields=starRating,thumbnail"
+        baseUrl = "https://private-anon-b665557f33-pizzaapp.apiary-mock.com/restaurants/restaurantId/menu?category=Pizza&orderBy=rank"
         currentPage = 1
         repos.removeAll()
         self.tableView.reloadData()
